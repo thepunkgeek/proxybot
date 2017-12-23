@@ -1,0 +1,2 @@
+# proxybot
+A scrappy little python module that uses Selenium with a firefox driver to aggregate proxies from the US with the highest uptimes into a list and returns them[proxybot.getlist()]. It also tries to create a firefox profile with a proxy that it found[proxybot.get_profile()]. The get_profile() is still under construction. I chose freeproxylists.net because the original site I was using went offline, and it seemed the easiest for me to work with. I'd like to add more sources and improve runtime(maybe by scraping sites that don't load the lists with JS?).
